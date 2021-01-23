@@ -1,0 +1,108 @@
+body {
+  font-family: poppins;
+}
+
+header .nav .navbar-nav .navbar-right {
+  margin: 25px 0;
+}
+
+header .navbar-inverse {
+  background-color: transparent;
+  border-color: transparent;
+}
+
+header .navbar-inverse .navbar-header {
+  color: #fff;
+  font-size: 40px;
+  font-weight: 900;
+}
+
+header .navbar-inverse .navbar-nav > li > a {
+  color: #fff;
+  text-transform: uppercase;
+}
+
+header .carousel-inner .item {
+  height: 100vh;
+}
+
+header .carousel-inner .item .banner {
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+header .carousel-inner .item .carousel-caption {
+  padding-bottom: 340px;
+  font-family: poppins;
+}
+
+header .carousel-inner .item .carousel-caption h2 {
+  font-size: 70px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+header .carousel-inner .item .carousel-caption h2 span {
+  color: #edbb00;
+}
+
+header .carousel-inner .item .carousel-caption p a {
+  background: #edbb00;
+  padding: 15px 35px;
+  display: inline-block;
+  margin-top: 15px;
+  color: #fff;
+  text-transform: uppercase;
+  border-radius: 25px;
+}
+
+header .carousel-control.right {
+  background-image: none;
+}
+
+header .carousel-control.left {
+  background-image: none;
+}
+
+header .carousel-indicators .active {
+  background-color: #edbb00;
+  border-color: #edbb00;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  header .carousel-inner .item .carousel-caption {
+    padding-bottom: 350px;
+  }
+  header .carousel-inner .item .carousel-caption h2 {
+    font-size: 50px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  header .navbar-inverse {
+    font-size: 30px;
+    padding: 20px 15px;
+  }
+  header .navbar-inverse .container .navbar-header .navbar-brand {
+    font-size: 30px;
+    padding: 20px 15px;
+  }
+  header .navbar-collapse {
+    background: rgba(0, 0, 0, 0.5);
+  }
+  header .carousel-inner .item .carousel-caption {
+    padding-bottom: 120px;
+  }
+  header .carousel-inner .item .carousel-caption h2 {
+    font-size: 25px;
+  }
+  header .carousel-inner .item .carousel-caption h3 {
+    font-size: 18px;
+  }
+  header .carousel-inner .item .carousel-caption a {
+    padding: 10px 25px;
+  }
+}
+/*# sourceMappingURL=Style.css.map */
